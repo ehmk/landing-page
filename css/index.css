@@ -93,6 +93,8 @@
   display: flex;
   flex-direction: column;
   align-items: center;
+  padding-left: 200px;
+  padding-right: 200px;
 }
 
 .random-info h2 {
@@ -104,24 +106,22 @@
 .random-info-images {
   display: flex;
   justify-content: center;
-  gap: 30px;
+  gap: 50px;
   flex-wrap: wrap;
   margin-top: 30px;
 }
 
 .card {
-  /* max-height: 150px;
-  min-height: 150px; */
-  max-width: 150px;
-  min-width: 150px;
+  max-width: 200px;
+  min-width: 200px;
 }
 
 .image {
-  border: 2px solid rgb(161, 161, 233);
-  max-height: 150px;
-  min-height: 150px;
-  max-width: 150px;
-  min-width: 150px;
+  border: 5px solid rgb(161, 161, 233);
+  max-height: 200px;
+  min-height: 200px;
+  max-width: 200px;
+  min-width: 200px;
   border-radius: 10px;
 }
 
@@ -130,7 +130,8 @@
   flex-direction: column;
   background: #E5E7EB;
   margin-top: 50px;
-  padding: 100px;
+  padding: 100px 200px 100px 200px;
+  
 }
 
 .quote {
@@ -144,6 +145,42 @@
   display: flex;
   justify-content: flex-end;
   font-size: 36px;
+}
+
+.call-to-action {
+  display: flex;
+  justify-content: center;
+  margin-top: 100px;
+}
+
+.call-to-action-message {
+  background: #3882F6;
+  color: white;
+  display: flex;
+  border-radius: 10px;
+  width: 1000px;
+  justify-content: space-between;
+  align-items: center;
+  padding: 25px 150px 25px 150px;
+}
+
+.call-to-action button {
+  border: 2px solid white;
+  background: #3882F6;
+  color: white;
+  height: 30px;
+  width: 100px;
+  border-radius: 10px;
+}
+
+footer {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 10px;
+  margin-top: 75px;
+  background:#1F2937;
+  color: white;
 }
 
 
