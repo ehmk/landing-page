@@ -95,6 +95,12 @@
   align-items: center;
 }
 
+.random-info h2 {
+  font-size: 36px;
+  font-weight: bolder;
+  color: #1F2937;
+}
+
 .random-info-images {
   display: flex;
   justify-content: center;
@@ -117,6 +123,27 @@
   max-width: 150px;
   min-width: 150px;
   border-radius: 10px;
+}
+
+.inspirational-quote {
+  display: flex;
+  flex-direction: column;
+  background: #E5E7EB;
+  margin-top: 50px;
+  padding: 100px;
+}
+
+.quote {
+  font-size: 36px;
+  font-style: italic;
+  font-weight: lighter;
+  color: #1F2937;
+}
+
+.quote-source {
+  display: flex;
+  justify-content: flex-end;
+  font-size: 36px;
 }
 
 
